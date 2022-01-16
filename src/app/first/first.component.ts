@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
   Second
   Third
   </div>`,
-  styleUrls: ['./first.component.css']
+  styles: [`
+  div {
+    color: red;
+  }
+  `]
 })
 export class FirstComponent implements OnInit {
 
